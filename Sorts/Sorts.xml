@@ -11,9 +11,18 @@
             </summary>
             <remarks>
             <list type="bullet">
-            <item>Best case complexity O(n)</item>
-            <item>Average case complexity O(n^2)</item>
-            <item>Worst case complexity O(n^2)</item>
+            <item>
+            <term>Best case complexity</term>
+            <description>O(n)</description>
+            </item>
+            <item>
+            <term>Average case complexity</term>
+            <description>O(n^2)</description>
+            </item>
+            <item>
+            <term>Worst case complexity</term>
+            <description>O(n^2)</description>
+            </item>
             </list>
             </remarks>
             <typeparam name="T">Elements type</typeparam>
