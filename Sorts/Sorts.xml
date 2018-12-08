@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sorts</name>
+    </assembly>
+    <members>
+        <member name="M:Sorts.Sort.GnomeSort``1(``0[])">
+            <summary>
+            Gnome sort
+            https://dickgrune.com/Programs/gnomesort.html
+            </summary>
+            <remarks>
+            <list type="bullet">
+            <item>Best case complexity O(n)</item>
+            <item>Average case complexity O(n^2)</item>
+            <item>Worst case complexity O(n^2)</item>
+            </list>
+            </remarks>
+            <typeparam name="T">Elements type</typeparam>
+            <param name="array">Array to sort</param>
+        </member>
+    </members>
+</doc>
