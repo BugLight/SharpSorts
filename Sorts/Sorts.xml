@@ -45,6 +45,24 @@
             <param name="startIndex">Sorting start index</param>
             <param name="endIndex">Sorting end index (-1 means array end)</param>
         </member>
+        <member name="M:Sorts.Sort.IntroSort``1(``0[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Introspective sort
+            </summary>
+            <remarks>
+            <list type="bullet">
+            <item>
+            <term>Complexity</term>
+            <description>O(nlogn)</description>
+            </item>
+            </list>
+            </remarks>
+            <typeparam name="T">Elements type</typeparam>
+            <param name="array">Array to sort</param>
+            <param name="startIndex">Sorting start index</param>
+            <param name="endIndex">Sorting end index (-1 means array end)</param>
+            <param name="maxDepth">Max recursion depth (log(endIndex - startIndex) by default)</param>
+        </member>
         <member name="M:Sorts.Sort.MergeSort``1(``0[],System.Int32,System.Int32)">
             <summary>
             Merge sort
